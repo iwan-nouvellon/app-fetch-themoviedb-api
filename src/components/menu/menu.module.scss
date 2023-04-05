@@ -1,0 +1,44 @@
+@use "../../styles/mixin.scss" as mixin;
+.root {
+  background-color: mixin.$color-2;
+  color: mixin.$color-text1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu {
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-align: start;
+}
+.logo {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  overflow: visible;
+}
+.logo-img {
+  height: 100%;
+}
+.logo-text {
+  font-size: 1.5rem;
+  color: mixin.$color-text2;
+}
+.title {
+  color: mixin.$color-text2;
+}
+.hr {
+  height: 0px;
+  border: 0.5px solid rgb(252, 245, 232);
+  width: 100%;
+}
+.list {
+  padding: 1px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}

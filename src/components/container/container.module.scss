@@ -1,0 +1,11 @@
+.root {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.container {
+  flex-grow: 5;
+  flex-shrink: 5;
+  grid-auto-flow: row;
+}

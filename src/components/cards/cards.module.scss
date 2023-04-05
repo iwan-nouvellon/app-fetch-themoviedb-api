@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  gap: 10px 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: start;
+  margin: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+}

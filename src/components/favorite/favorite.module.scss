@@ -1,0 +1,13 @@
+@use "../../styles/mixin.scss" as mixin;
+.root {
+  background-color: mixin.$color-2;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: start;
+}
+.favorite {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
